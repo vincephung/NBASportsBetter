@@ -1,0 +1,55 @@
+.container{
+	text-align: center;
+	width: 80%;
+	margin: 30px auto;
+}
+
+.team{
+	display: inline-block;
+	text-align: center;
+}
+
+body{
+	background-color: #808080 !important;
+}
+
+h1{
+	text-align: center;
+	font-size: 4rem;
+	text-shadow: 5px;
+	color: #4ECCA3;
+}
+h2{
+	text-align: center;
+	margin-top: 25px;
+	font-size: 2rem;
+	text-shadow: 5px;
+	color: #DE3163;
+}
+
+h3{
+	text-align: center;
+	margin-top: 25px;
+	font-size: 2rem;
+	text-shadow: 5px;
+	color: #DE3163;
+}
+
+
+
+p{
+	font-size: 2rem;
+	text-shadow: 2px 0 black;
+	color: #4ECCA3;
+}
+
+img{
+	width: 80%;
+	height: 80%;
+}
+
+footer{
+	margin-top: 10%;
+	text align: center;
+	width: 80%;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Long+Cang&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--- imported from https://blog.mounirmesselmeni.de/2012/11/20/reading-csv-file-with-javascript-and-html5-file-api/ --->
+	 <script type="text/javascript" src="static/js/read-csv.js"></script>
+    <input type="file" id="csvFileInput" onchange="handleFiles(this.files)"
+            accept=".csv">
+
+
+	<title>NBA Sports Better Game</title>
+</head>
+
+<body>
+<!--- just added this -->
+<p id="display"></p>
+
+ 
+	<h1>NBA Sports Better Game</h1>
+	<h2 id = "scoreboard">Your Win/Loss Record: 0-0</h2>
+	<h3 id = "date">Date</h3>
+	<div class ="container">
+		<div class ="team">
+			<p>Team 1</p>
+			<img class="img1" src="nba-logo.jpg">
+			<button onclick="userPickOne()">Team One</button>
+
+		</div>
+
+
+
+
+		<!--- CAN change class name of "team" just put it there for now -->
+		<div class ="team">
+			<p>Team 2 </p>
+			<img class ="img2" src="nba-logo.jpg">
+			<button onclick="userPickTwo()">Team Two</button>
+		</div>
+	</div>
+
+
+	<center><button id = "startGame" onclick="startGame()">Start Game </button>
+</center>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
