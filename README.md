@@ -1,5 +1,5 @@
 # NBASportsBetter
-NBA Sports betting simulator game that I made for fun 
+NBA Sports betting simulator game that I made for fun  
 Sports betting simulator. 
 
 Chooses a random game from the 2012-2018 NBA seasons.
