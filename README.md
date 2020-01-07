@@ -55,4 +55,4 @@ It allowed me to write my own code to parse the information inside of the excel 
 
 Created by Vincent Phung.
 
-Version 1.0 finished on 12/30/2019.
+Version 1.0 uploaded on 12/30/2019.
