@@ -1,5 +1,6 @@
 # NBASportsBetter
 NBA Sports betting simulator game that I made for fun  
+https://vincephung.github.io/NBASportsBetter/
 
 Sports betting simulator. 
 
